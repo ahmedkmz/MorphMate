@@ -33,7 +33,7 @@ import pyfiglet
 def print_colored(text, color):
     print(colored(text, color))
 
-banner = pyfiglet.figlet_format("MorphMate")
+banner = pyfiglet.figlet_format("MorphMate v1.0")
 print_colored(banner, 'cyan')
 
 welcome_message = r"""
