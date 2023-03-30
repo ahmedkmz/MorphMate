@@ -48,7 +48,7 @@
 <h2>Usage</h2>
 
 <ol>
-  <li>Clone the MorphMate repository: <code>git clone https://github.com/yourusername/MorphMate.git</code></li>
+  <li>Clone the MorphMate repository: <code>git clone https://github.com/ahmedkmz/MorphMate.git</code></li>
   <li>Navigate to the MorphMate directory: <code>cd MorphMate</code></li>
   <li>Run the script: <code>python morphmate.py</code></li>
   <li>Follow the prompts to select the compression type, CRF option, media library folder path, and GPU acceleration preference</li>
