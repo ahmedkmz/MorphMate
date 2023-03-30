@@ -23,6 +23,28 @@
   <li>FFmpeg</li>
 </ul>
 
+<h2>Installation</h2>
+
+<p>Before using MorphMate, you need to install the FFmpeg library on your system. Here are the installation steps:</p>
+
+<h3>Windows</h3>
+
+<p>Download a build of FFmpeg from the official website: <a href="https://ffmpeg.org/download.html#build-windows">https://ffmpeg.org/download.html#build-windows</a></p>
+<p>Extract the contents of the downloaded archive to a folder of your choice.</p>
+<p>Add the FFmpeg bin folder to your system's PATH environment variable.</p>
+
+<h3>macOS</h3>
+
+<p>Install FFmpeg using Homebrew by running the following command:</p>
+<p><code>brew install ffmpeg</code></p>
+
+<h3>Linux (Ubuntu)</h3>
+
+<p>Install FFmpeg using apt-get by running the following command:</p>
+<p><code>sudo apt-get install ffmpeg</code></p>
+
+
+
 <h2>Usage</h2>
 
 <ol>
@@ -45,7 +67,7 @@
 
 <h2>Contributing</h2>
 
-<p>Contributions are welcome! If you would like to contribute to this project, please create a new branch and submit a pull request with your changes. Please ensure that your changes adhere to the project's code style and guidelines.</p>
+<p>Contributions are welcome! If you would like to contribute to this project, please create a new branch and submit a pull request with your changes. Please ensure that your changes adhere to the project's code style.</p>
 
 
 <h2>Credits</h2>
