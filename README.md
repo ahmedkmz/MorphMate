@@ -56,6 +56,8 @@
   <li>If a file does not start converting for 30 seconds, the script will skip to the next file.<b>or press ENTER</b> to skip</li>
 </ol>
 
+<h3> In some cases, some files will not transcode and will be skipped if using GPU, thats mostly because of ffmpeg and your GPU, please choose CPU transcoding as a workaround.</h3>
+
 <h2>Error Handling</h2>
 
 <p>MorphMate handles detailed error handling during the compression process. If an error occurs during the compression of a file, the script will skip that file and move on to the next file. Additionally, the script provides progress updates during the compression process to keep the user informed. If a file does not start converting for 30 seconds due to an error in the media file, the script will skip to the next file.</p>
