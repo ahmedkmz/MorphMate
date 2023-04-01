@@ -96,7 +96,7 @@ def compress_video(input_file, output_file, compression_type, crf, use_gpu):
             args = (
                 ffmpeg
                 .input(input_file)
-                .output(output_file, vcodec=codec, acodec='copy', crf=crf, map_metadata=0)
+                .output(output_file, vcodec=codec, map='0', acodec='copy', crf=crf, map_metadata=0)
                 .global_args('-loglevel', 'info', '-stats')
                 .compile()
             )
